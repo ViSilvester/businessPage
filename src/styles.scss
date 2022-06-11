@@ -74,6 +74,7 @@ $shadow: #cccccc5d;
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
     html,
     body {
@@ -183,6 +184,7 @@ img {
 .content-card {
     border-radius: 10px;
     background-color: $shadow;
+    overflow: hidden;
     animation-name: intro-rise;
     animation-duration: 500ms;
     animation-fill-mode: backwards;
