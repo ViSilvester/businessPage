@@ -53,6 +53,19 @@ $shadow: #cccccc5d;
     }
 }
 
+@keyframes intro-rise {
+
+    0% {
+        transform: translateY(-1em);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -162,6 +175,14 @@ img {
     }
 }
 
+.content-card {
+    border-radius: 10px;
+    background-color: $shadow;
+    animation-name: intro-rise;
+    animation-duration: 500ms;
+    animation-fill-mode: backwards;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -198,10 +219,6 @@ img {
     align-self: center;
 }
 
-.content-card {
-    border-radius: 10px;
-    background-color: $shadow;
-}
 
 .padding-1 {
     padding: 1em;
