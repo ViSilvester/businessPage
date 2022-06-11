@@ -10,45 +10,45 @@ $dark: #111111;
 $shadow: #cccccc5d;
 
 .xsm {
-    max-width: 12.5%;
+    max-width: 15%;
     height: auto;
 }
 
 .sm {
-    max-width: 25%;
+    max-width: 20%;
     height: auto;
 }
 
 .md {
-    max-width: 50%;
+    max-width: 45%;
     height: auto;
 }
 
 .lg {
-    max-width: 75%;
+    max-width: 70%;
     height: auto;
 }
 
 .xlg {
-    max-width: 90%;
+    max-width: 95%;
     height: auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 
     .xsm {
-        max-width: 75%;
+        max-width: 25%;
         height: auto;
     }
 
 
     .sm {
-        max-width: 100%;
+        max-width: 45%;
         height: auto;
     }
 
     .md {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
     }
 }
@@ -181,6 +181,10 @@ img {
     animation-name: intro-rise;
     animation-duration: 500ms;
     animation-fill-mode: backwards;
+
+    p {
+        line-height: 1.1em;
+    }
 }
 
 .container {
@@ -219,10 +223,28 @@ img {
     align-self: center;
 }
 
+.padding-half {
+    padding: 0.5em;
+}
+
+.margin-half {
+    margin: 0.5em;
+}
+
 
 .padding-1 {
     padding: 1em;
 }
+
+.margin-2 {
+    margin: 2em;
+}
+
+.padding-2 {
+    padding: 2em;
+}
+
+
 
 .margin-1 {
     margin: 1em;
